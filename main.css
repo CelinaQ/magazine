@@ -1,0 +1,49 @@
+/*************************
+ mobile-first style
+ ************************/
+
+/*************************
+ screen size more than 600px
+ ************************/
+
+ @media (min-width:400px) {
+    .header {
+     position: fixed;
+     width: 100%;
+     top: 0px;
+     background-color: #ddd;
+   }
+
+   h1 {
+     text-align: center;
+     font-size: 2.95em;
+     font-family: "Karla", sans-serif;
+   }
+
+   h2 {
+     font-family: "Karla", sans-serif;
+   }
+
+   .mainNav {
+     text-align: center;
+   }
+
+   nav ul {
+     list-style: none;
+     font-family: "Karla", sans-serif;
+     align-content: center;
+   }
+
+   li a{
+     text-decoration: none;
+   }
+
+   .content {
+     margin-top: 450px;
+     font-family: "Karla", sans-serif;
+   }
+
+   .img400 {
+     float: left;
+   }
+ }
