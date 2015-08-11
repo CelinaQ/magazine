@@ -2,68 +2,82 @@
  mobile-first style
  ************************/
 
-/*************************
- screen size more than 600px
- ************************/
+.header {
+  margin-top: -.5rem;
+  margin-left: -.5rem;
+  position: fixed;
+  width: 100%;
+  /*background-color: #51E2E4;*/
+  background-color: #bbb;
+  opacity: .8;
+}
 
- @media (min-width:400px) {
-    .header {
-     position: sticky;
-     width: 100%;
-     top: 0px;
-     background-color: #ddd;
-   }
+.logo {
+  text-align:center;
+  padding-top: 5rem;
+}
 
-   h1 {
-     text-align: center;
-     font-size: 2.95em;
-     font-family: "Karla", sans-serif;
-   }
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.95em;
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  /*-webkit-text-stroke: 1px #000;*/
+}
 
-   h2 {
-     font-family: "Karla", sans-serif;
-   }
+h2 {
+  /*padding-top: 5rem;*/
+  font-family: "Karla", sans-serif;
+}
 
-#headerFlexcontainer {
+h2 a, h2 a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.navFlexcontainer {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 0rem;
 }
 
-   .navFlexcontainer {
-     display: flex;
-     flex-flow: wrap;
-     flex-direction: column;
-     justify-content: center;
-   }
+nav ul {
+  list-style: none;
+  font-family: "Karla", sans-serif;
+}
 
-   nav ul {
-     list-style: none;
-     font-family: "Karla", sans-serif;
-     /*align-content: center;*/
-   }
+li a {
+  text-decoration: none;
+}
 
-   li a{
-     text-decoration: none;
-   }
+nav a, nav a:visited {
+  color: #000;
+}
 
-   .content {
-     margin-top: 60px;
-     font-family: "Karla", sans-serif;
-   }
+.content {
+  font-family: "Karla", sans-serif;
+}
 
-   p {
-     /*padding-left: 2rem;*/
-   }
 
-   .img400 {
-     float: left;
-     padding-right: 1rem;
-   }
+.img150 {
+  float: left;
+  padding-right: 1rem;
+}
 
-   #footFlexcontainer {
-     display: flex;
-     flex-flow: wrap;
-     justify-content: center;
-   }
- }
+.read {
+  color: #005CE6;
+}
+
+#footFlexcontainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  /*padding-top: 6rem;*/
+}
+
+footer {
+  font-family: 'Karla', sans-serif;
+}
