@@ -1,6 +1,9 @@
 /*************************
  mobile-first style
  ************************/
+ #content {
+   font-family: "Karla", sans-serif;
+ }
 
  header {
   margin-top: -.5rem;
@@ -33,11 +36,30 @@ h2 a, h2 a:visited {
   text-decoration: none;
 }
 
+.read {
+  color: #1d4588;
+}
+
+.img150 {
+  float: left;
+  padding-right: 1rem;
+}
+
+footer {
+  font-family: 'Karla', sans-serif;
+}
+
+
 #navFlexcontainer {
-  display: block;
+  display: flex;
   flex-flow: wrap;
   justify-content: center;
-  flex-direction: column;
+}
+
+#footFlexcontainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 nav ul {
@@ -56,28 +78,12 @@ nav a, nav a:visited {
 a:hover {
 	color: #2BD1DC;
 
-#content {
-  font-family: "Karla", sans-serif;
-}
 
-.img150 {
-  float: left;
-  padding-right: 1rem;
-}
 
-.read {
-  color: #1d4588;
-}
 
-#footFlexcontainer {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-}
 
-footer {
-  font-family: 'Karla', sans-serif;
-}
+
+
 
 /********************************
 medium-sized screens
