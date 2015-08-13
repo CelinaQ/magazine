@@ -2,12 +2,11 @@
  mobile-first style
  ************************/
 
-.header {
+ header {
   margin-top: -.5rem;
   margin-left: -.5rem;
   position: fixed;
   width: 100%;
-  /*background-color: #51E2E4;*/
   background-color: #bbb;
   opacity: .8;
 }
@@ -23,11 +22,9 @@ h1 {
   font-size: 2.95em;
   font-family: "Karla", sans-serif;
   color: #fff;
-  /*-webkit-text-stroke: 1px #000;*/
 }
 
 h2 {
-  /*padding-top: 5rem;*/
   font-family: "Karla", sans-serif;
 }
 
@@ -36,12 +33,11 @@ h2 a, h2 a:visited {
   text-decoration: none;
 }
 
-.navFlexcontainer {
-  display: flex;
+#navFlexcontainer {
+  display: block;
   flex-flow: wrap;
   justify-content: center;
   flex-direction: column;
-  padding-top: 0rem;
 }
 
 nav ul {
@@ -57,10 +53,12 @@ nav a, nav a:visited {
   color: #000;
 }
 
-.content {
+a:hover {
+	color: #2BD1DC;
+
+#content {
   font-family: "Karla", sans-serif;
 }
-
 
 .img150 {
   float: left;
@@ -68,16 +66,44 @@ nav a, nav a:visited {
 }
 
 .read {
-  color: #005CE6;
+  color: #1d4588;
 }
 
 #footFlexcontainer {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  /*padding-top: 6rem;*/
 }
 
 footer {
   font-family: 'Karla', sans-serif;
+}
+
+/********************************
+medium-sized screens
+********************************/
+
+/*@media screen and (min-width: 600px){
+
+  nav ul {
+    float: left;
+    max-height: 25rem;
+  }
+
+  #logo {
+    background-color: #2BD1DC;
+  }
+
+  .content {
+    font-family: "Karla", sans-serif;
+  }
+
+
+
+  #navFlexcontainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content:left;
+  }
+
 }
