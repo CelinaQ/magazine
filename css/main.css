@@ -1,9 +1,13 @@
 /*************************
  mobile-first style
  ************************/
- #content {
-   font-family: "Karla", sans-serif;
+ html {
+   font-family: 'Karla', sans-serif;
  }
+
+ /*#content {
+   font-family: "Karla", sans-serif;
+ }*/
 
  header {
   margin-top: -.5rem;
@@ -16,20 +20,28 @@
 
 .logo {
   text-align:center;
-  padding-top: 5rem;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.title {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 h1 {
   margin: 0;
   text-align: center;
   font-size: 2.95em;
-  font-family: "Karla", sans-serif;
+  /*font-family: "Karla", sans-serif;*/
   color: #fff;
 }
 
-h2 {
+/*h2 {
   font-family: "Karla", sans-serif;
-}
+}*/
 
 h2 a, h2 a:visited {
   color: #000;
@@ -45,14 +57,11 @@ h2 a, h2 a:visited {
   padding-right: 1rem;
 }
 
-footer {
-  font-family: 'Karla', sans-serif;
-}
-
 #navFlexcontainer {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  padding-top: 7.5rem;
 }
 
 #footFlexcontainer {
@@ -63,7 +72,6 @@ footer {
 
 nav ul {
   list-style: none;
-  font-family: "Karla", sans-serif;
 }
 
 li a {
@@ -85,13 +93,21 @@ medium-sized screens
 @media screen and (min-width: 600px){
 
   .content {
-    font-family: "Karla", sans-serif;
+    /*font-family: "Karla", sans-serif;*/
+    float: right;
   }
 
   header {
+   position: fixed;
    width: 100%;
-   background-color: #bbb;
-   opacity: .8;
+   background-color: #fff;
+ }
+
+ h1 {
+   color: #000;
+   float: left;
+   padding-top: 11rem;
+   padding-left: 4.5rem;
  }
 
   #navFlexcontainer {
@@ -99,6 +115,7 @@ medium-sized screens
     flex-flow: wrap;
     justify-content: left;
     padding-top: 20rem;
+    float: left;
   }
 
   .logo {
