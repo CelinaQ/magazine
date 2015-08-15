@@ -111,7 +111,7 @@ medium-sized screens
   min-width: 95%;
   margin-top: 1rem;
   margin-left: 0;
-  padding: 0 1rem 1rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   width: 150rem;
   }
 
@@ -131,6 +131,46 @@ medium-sized screens
  .img150 {
    float: left;
    max-width: 30%;
+ }
+
+ #bon {
+   content: url(../img/bon-dance-lanterns_600.jpg);
+ }
+
+ #ginger {
+   content: url(../img/ginger_600.jpg);
+ }
+
+ #rays {
+   content: url(../img/light-rays_600.jpg);
+ }
+
+ #lotus {
+   content: url(../img/lotus_600.jpg);
+ }
+
+ #ns {
+   content: url(../img/ns_600.jpg);
+ }
+
+ #palm {
+   content: url(../img/palm_600.jpg);
+ }
+
+ #ridge {
+   content: url(../img/ridge_600.jpg);
+ }
+
+ #beach {
+   content: url(../img/sunset-beach_600.jpg);
+ }
+
+ #bldg {
+   content: url(../img/sunset-building_600.jpg);
+ }
+
+ #rainbow {
+   content: url(../img/sunset-rainbow_600.jpg);
  }
 
  article:nth-of-type(odd) .img150 {
