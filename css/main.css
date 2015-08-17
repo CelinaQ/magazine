@@ -3,6 +3,7 @@
  ************************/
  html {
    font-family: 'Karla', sans-serif;
+   font-size: 18px;
  }
 
  header {
@@ -24,7 +25,7 @@
   display: block;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 50%;
 }
 
 h1 {
@@ -38,7 +39,7 @@ h1 {
   visibility: hidden;
 }
 
-h2 a, h2 a:visited {
+h2 a {
   color: #000;
   text-decoration: none;
 }
@@ -63,6 +64,7 @@ h2 a, h2 a:visited {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  padding: 1rem 0 1rem 0;
 }
 
 nav ul {
@@ -73,13 +75,14 @@ li a {
   text-decoration: none;
 }
 
-nav a, nav a:visited {
+nav a {
   color: #000;
 }
 
 a:hover {
 	color: #2BD1DC;
 }
+
 
 /********************************
 medium-sized screens
@@ -105,14 +108,22 @@ medium-sized screens
   }
 
   article {
-  min-height: 200px;
+  /*min-height: 200px;*/
   border-bottom: 1px solid black;
   max-width: 95%;
-  min-width: 95%;
+  /*min-width: 95%;*/
   margin-top: 1rem;
   margin-left: 0;
   padding: 2rem 1rem 1rem 1rem;
   width: 150rem;
+  overflow: hidden;
+  }
+
+  .anchor{
+   display: block;
+   height: 0px; /*same height as header*/
+   margin-top: -150px; /*same height as header*/
+   visibility: hidden;
   }
 
   header {
@@ -133,7 +144,7 @@ medium-sized screens
    max-width: 30%;
  }
 
- #bon {
+ /*#bon {
    content: url(../img/bon-dance-lanterns_600.jpg);
  }
 
@@ -171,7 +182,7 @@ medium-sized screens
 
  #rainbow {
    content: url(../img/sunset-rainbow_600.jpg);
- }
+ }*/
 
  article:nth-of-type(odd) .img150 {
       float:right;
