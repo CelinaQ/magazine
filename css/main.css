@@ -159,9 +159,9 @@ medium-sized screens
    content: url(../img/lotus_600.jpg);
  }
 
- /*#ns {
+ #field {
    content: url(../img/ns_600.jpg);
- }*/
+ }
 
  #palm {
    content: url(../img/palm_600.jpg);
