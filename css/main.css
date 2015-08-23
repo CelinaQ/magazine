@@ -3,7 +3,6 @@
  ************************/
  html {
    font-family: 'Karla', sans-serif;
-   font-size: 18px;
  }
 
  header {
@@ -11,32 +10,30 @@
   margin-left: -.5rem;
   position: fixed;
   width: 100%;
-  background-color: #bbb;
   opacity: .8;
 }
 
 .logo {
   text-align:center;
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .title {
+  text-align: center;
   display: block;
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
+  background-color: #bbb;
 }
 
 h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 2.95em;
+  margin-top: 0;
+  font-size: 2.5em;
   color: #fff;
-}
-
-#desc {
-  visibility: hidden;
+  text-align: center;
+  margin: 0;
 }
 
 h2 a {
@@ -57,14 +54,13 @@ h2 a {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  padding-top: 8rem;
 }
 
 #footFlexcontainer {
-  display: flex;
   flex-flow: wrap;
   justify-content: center;
-  padding: 1rem 0 1rem 0;
+  font-size: 0.7em;
+  text-align: center;
 }
 
 nav ul {
@@ -108,13 +104,11 @@ medium-sized screens
   }
 
   article {
-  /*min-height: 200px;*/
   border-bottom: 1px solid black;
   max-width: 95%;
-  /*min-width: 95%;*/
   margin-top: 1rem;
   margin-left: 0;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   width: 150rem;
   overflow: hidden;
   }
@@ -124,6 +118,11 @@ medium-sized screens
    height: 0px; /*same height as header*/
    margin-top: -150px; /*same height as header*/
    visibility: hidden;
+  }
+
+  .title {
+      width: 30%;
+      background-color: #fff;
   }
 
   header {
@@ -144,7 +143,7 @@ medium-sized screens
    max-width: 30%;
  }
 
- /*#bon {
+ #bon {
    content: url(../img/bon-dance-lanterns_600.jpg);
  }
 
@@ -160,9 +159,9 @@ medium-sized screens
    content: url(../img/lotus_600.jpg);
  }
 
- #ns {
+ /*#ns {
    content: url(../img/ns_600.jpg);
- }
+ }*/
 
  #palm {
    content: url(../img/palm_600.jpg);
@@ -182,18 +181,13 @@ medium-sized screens
 
  #rainbow {
    content: url(../img/sunset-rainbow_600.jpg);
- }*/
+ }
 
  article:nth-of-type(odd) .img150 {
       float:right;
       padding-left:0.8rem;
       padding-right:0;
   }
-
- /*#desc {
-   visibility: visible;
-   color: #000;
- }*/
 
   #navFlexcontainer {
     display: flex;
